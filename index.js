@@ -11,6 +11,7 @@ for(btn of buttons){
         text.style.animation = "textbox 3s infinite ease-in-out alternate-reverse"
 //play audio
         click.play()
+        window.navigator.vibrate(300);
 
 if( text.style.color == "cyan"){
     text.style.color = "white"
